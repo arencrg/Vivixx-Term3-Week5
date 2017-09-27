@@ -1,7 +1,10 @@
 # Quick JS examples on the Terminal
 
-1. dice.js --- a quick game where you can input how many dice throws and then the console will display what numbers show up
-2. name_generator.js --- an app that will run a random name generator on the console
+1. dice.js
+  This is a quick game where you input how many dice throws the app will make and then the console will display what numbers we get from the dice throws
+
+2. name_generator.js
+  This is an app that will run a random name generator on the console
 
 ### Usage
 

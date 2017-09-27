@@ -6,15 +6,15 @@ constructor(props){
   this.state = { text: ""}
 }
 
-addTodo(){
-  console.log("Clicked!")
-  
+updateText(event){
+  this.setState({text: event.target.value})
 }
 
-updateText(event){
-  console.log("Updated the text")
-  console.log(event.target.value)
-  this.setState({text: event.target.value})
+addTodo(){
+  this.props.addNewTodoFunc(this.state.text);
+  this.setState({
+    text: ""
+  })
 }
 
   render(){
