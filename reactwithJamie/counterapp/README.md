@@ -4,8 +4,11 @@ This app was made with create-react-app. It is a simple study on how props and s
 ### Features
 
 - Welcome Component
+
     This component takes the props name (my name, Aren) and displays it
+    
 - Counter Component
+
     This component has a button that enables the user to keep adding +1 to the counter
 
 ### Usage
