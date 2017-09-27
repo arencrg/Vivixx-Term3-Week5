@@ -9,4 +9,4 @@ This app was made with create-react-app. It is a simple study on how props and s
 
 ### Usage
 
-Type `npm start` in your Terminal/Powershell or whatever you use, and it will open in localhost:3000
+Type `npm start` in your Terminal/Powershell or whatever you use, and it will open in `localhost:3000`
