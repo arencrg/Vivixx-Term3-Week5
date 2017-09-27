@@ -20,11 +20,13 @@ addTodo(){
   render(){
     return(
       <div>
-      <input onChange={(event) => this.updateText(event)} value={this.state.text} type="text" />
-      <button onClick={()=> this.addTodo()}>Add a new task</button>
+        <input onChange={(event)=>this.updateText(event)} value={this.state.text} type="text" />
+        &nbsp;
+        <button onClick={()=>this.addTodo()}>Add a new task</button>
       </div>
     )
   }
+
 }
 
 export default TodoForm;
