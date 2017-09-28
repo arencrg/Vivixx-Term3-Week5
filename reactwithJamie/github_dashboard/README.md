@@ -20,6 +20,8 @@ This app was an exercise in using create-react-app with API JSON requests and pr
 
     I used React-Materilize to try and make the app a bit more presentable. I only used Row, Col, CardPanel, and a  button + icon.
 
+        To install `react-materialize` as a dependency (so that it's always packaged in your app), type in `npm install --save react-materialize` or `yarn add react-materialize` in your Terminal/Powershell/GitBash/whatever.
+
 ### Usage
 
-Type `npm start` in your Terminal/Powershell or whatever you use, and it will open in `localhost:3000`
+Type `npm start` in your Terminal/Powershell/GitBash or whatever you use, and it will open in `localhost:3000`
