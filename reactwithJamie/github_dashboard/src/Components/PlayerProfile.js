@@ -6,13 +6,15 @@ class PlayerProfile extends Component {
     return(
 			<CardPanel className="teal lighten-5 black-text">
 				<h3>{this.props.player_data.name}</h3>
-        <p>{this.props.player_data.html_url}</p>
+        <h5>{this.props.player_data.html_url}</h5>
         <img src={this.props.player_data.avatar_url} width="60%" alt=""/>
         <p>{this.props.player_data.bio}
-        <br/>
+        <hr/>
         Public Repos: {this.props.player_data.public_repos}
         <br/>
-        Followers: {this.props.player_data.followers} | Following: {this.props.player_data.following}
+        Followers: {this.props.player_data.followers}
+        <br/>
+        Following: {this.props.player_data.following}
         </p>
 			</CardPanel>
     )
